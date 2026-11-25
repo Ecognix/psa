@@ -8,7 +8,7 @@ import { useEffect, useState } from "react";
 import { usePathname } from "next/navigation";
 
 export function Brand() {
-  return <Link href="/" className="brand" aria-label="Prasujya Sports Arena (PSA) home"><img src="/logo.png" alt="Prasujya Sports Arena (PSA) logo" className="brand-logo" /><span>PRASUJYA SPORTS ARENA<small>GUWAHATI</small></span></Link>;
+  return <Link href="/" className="brand" aria-label="Prasujya Sports Arena (PSA) home"><img src="/logo.png" alt="Prasujya Sports Arena (PSA)" className="brand-logo" /></Link>;
 }
 
 export function SiteHeader() {
